@@ -25,6 +25,10 @@ a{
 }
 
 
+.companyLogo img{
+    width: 100%;
+}
+
 .linkImages{
     width: 150px;
     margin: 0 auto;
