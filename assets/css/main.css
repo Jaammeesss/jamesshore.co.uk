@@ -1,35 +1,25 @@
 *{
+    padding: 0; 
     margin: 0;
-    padding: 0;
 }
 
-a{
-    text-decoration: none;
-}
-
-.mainContainer{
+header{
     width: 100%;
     float: left;
 }
 
-
-
-.mainContainerCenter {
-    width: 900px;
-    margin: 300px auto;
-}
-
-.mainContainerContent{
-    width: 100%;
-    float: left;
+header img {
+	width: 100%;
+	position: absolute;
 }
 
 
-.companyLogo img{
-    width: 100%;
-}
 
-.linkImages{
-    width: 150px;
-    margin: 0 auto;
+nav{
+    width: 1020px;
+    margin: 0 auto; 
+    background-color: red;
+    height: 100px;
+    z-index: 1000;
+    position: relative;
 }
