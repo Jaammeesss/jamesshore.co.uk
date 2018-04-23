@@ -90,8 +90,10 @@ nav {
     margin-right: 20px;
 }
 
-.nav-menu li:nth-last-child(1) {
-    margin-right: 15px;
+.nav-menu li:hover{
+    color: #e30613;
+    transform: scale(1.1);
+    transition-duration: 0.25s;
 }
 
 .about-us-container {
@@ -114,8 +116,10 @@ nav {
 }
 
 .about-us-image-container {
-    width: 100%;
-    float: left;
+	width: 100%;
+	float: left;
+	max-height: 500px;
+	overflow: hidden;
 }
 
 .about-us-image-container img {
@@ -173,6 +177,8 @@ nav {
 .skills-image-container {
     width: 100%;
     float: left;
+    max-height: 500px;
+	overflow: hidden;
 }
 
 .skills-image-container img {
@@ -233,10 +239,17 @@ nav {
     text-decoration: none;
 }
 
+.portfolio-button:hover{
+    background-color: #575656;
+    transition-duration: 0.25s;
+}
+
 
 .portfolio-image-container{
     width: 100%;
     float: left;
+    max-height: 500px;
+	overflow: hidden;
 }
 
 .portfolio-image-container img{
