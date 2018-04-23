@@ -13,6 +13,10 @@ header {
     float: left;
 }
 
+a{
+    color: inherit;
+}
+
 h2 {
     font-size: 4em;
     font-weight: 400;
